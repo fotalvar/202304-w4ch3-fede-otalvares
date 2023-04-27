@@ -1,5 +1,9 @@
 const App = (): JSX.Element => {
-  return <p></p>;
+  return (
+    <>
+      <div className="container"></div>
+    </>
+  );
 };
 
 export default App;
