@@ -1,4 +1,6 @@
 export interface PhoneContextStructure {
-  phoneNumber: number;
-  status: boolean;
+  phoneNumber: string[];
+  isCalling: boolean;
+  addDigit: (digit: string) => void;
+  emptyPhoneNumber: () => void;
 }
